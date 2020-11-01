@@ -1,4 +1,11 @@
-config.local.php
+# netbeans files
 nbproject
 nbproject/*
 
+# config file
+config.local.php
+
+# don't version the medias
+medias/*
+# but version the example
+!medias/example.txt
