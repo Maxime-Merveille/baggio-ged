@@ -24,12 +24,19 @@ Les issues sont à utiliser pour lister les bugs et améliorations souhaitées.
 ## Flow de développement
 
 Lorsqu'un développeur souhaite prendre en charge un ticket, il s'assigne dessus.
-Une fois assigné,
-il DOIT créer une branche dont le nom commence par le numéro de l'issue.
-La branche doit être push aussi vite que possible, afin d'être visible sur Github.
-Une pull request doit être créée assez rapidement à partir de cette projet,
+Le dépôt a été réglé pour ne pas permettre de modifications en direct. Vous DEVEZ donc créer un fork avant tout, pour pouvoir travailler dessus.
+Une pull request doit être créée assez rapidement à partir de ce fork,
 mais DOIT être verrouillée (marquée WIP).
-Tout le travail doit être réalisé sur cette branche.
+Tout le travail doit être réalisé sur les forks.
+Une fois que vous êtes satisfait, déverrouillez la pull request et demandez une review !
+
+## Installation de l'application
+
+Pour tester et faire tourner ce site web en local, vous aurez besoin:
+* soit d'un système (même virtualisé) Linux, avec Apache (ou NGinx), MySQL et PHP d'installé ([un exemple de stack pouvant être utilisé se trouve ici](https://wiki.debian.org/fr/Lamp))
+* soit de l'installation d'une stack WAMP ou MAMP sur Windows ou sur MacOSX (par exemple, [WampServer](https://www.wampserver.com/) sur Windows)
+
+Une fois votre stack installée, clonez votre fork en local pour commencer à travailler dessus et à le tester.
 
 ## Configuration de l'application
 
